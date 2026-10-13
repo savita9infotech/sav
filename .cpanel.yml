@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/devxploreseo/public_html/sav/
+    - /bin/cp -R * $DEPLOYPATH
